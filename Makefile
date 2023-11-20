@@ -1,4 +1,4 @@
-SRCS		=	ft_strlen.s ft_strcpy.s ft_strcmp.s ft_write.s ft_read.s #ft_strdup.s
+SRCS		=	ft_strlen.s ft_strcpy.s ft_strcmp.s ft_write.s ft_read.s ft_strdup.s
 SRCS_C		=	helper.c
 OBJS		=	$(SRCS:.s=.o)
 OBJS_C		=	$(SRCS_C:.c=.o)
